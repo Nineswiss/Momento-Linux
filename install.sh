@@ -5,8 +5,15 @@ sudo apt install -y x11-xserver-utils
 sudo apt install -y lxterminal
 sudo apt install -y openbox
 sudo apt install -y picom
+sudo apt install hsetroot
 sudo mkdir /home/$USER/.config
 sudo mkdir /home/$USER/.config/openbox
+sudo mkdir /home/$USER/Documents
+sudo mkdir /home/$USER/Downloads
+sudo mkdir /home/$USER/Pictures
+sudo mkdir /home/$USER/Pictures/Wallpaper
+sudo mkdir /home/$USER/Music
+sudo mkdir /home/$USER/Videos
 sudo cp -r opbtheme/config/openbox /home/$USER/.config
 sudo cp -r opbtheme/Momento /usr/share/themes
 sudo cp -r gtk/Nordic-darker /usr/share/themes
