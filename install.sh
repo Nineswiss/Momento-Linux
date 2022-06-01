@@ -23,4 +23,5 @@ sudo cp gtk/settings.ini /home/$USER/.config/gtk-3.0
 sudo mkdir /home/$USER/.config/picom
 sudo cp picom/picom.conf /home/$USER/.config/picom
 echo "export QT_QPA_PLATFORMTHEME=gtk2" >> ~/.profile
+sudo chmod 777 /home/$USER/Music /home/$USER/Pictures/ /home/$USER/Videos/ /home/$USER/Documents/
 reboot
