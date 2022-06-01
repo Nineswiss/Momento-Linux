@@ -1,6 +1,5 @@
 #!/bin/bash
 echo "Installing..."
-git clone https://github.com/Nineswiss/Momento-Linux.git
 apt install -y xinit
 apt install -y x11-xserver-utils
 apt install -y lxterminal
