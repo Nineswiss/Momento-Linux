@@ -14,6 +14,7 @@ sudo mkdir /home/$USER/Pictures
 sudo mkdir /home/$USER/Pictures/Wallpaper
 sudo mkdir /home/$USER/Music
 sudo mkdir /home/$USER/Videos
+sudo cp wallpaper/bright.jpg /home/$USER/Pictures/Wallpaper
 sudo cp -r opbtheme/config/openbox /home/$USER/.config
 sudo cp -r opbtheme/Momento /usr/share/themes
 sudo cp -r gtk/Nordic-darker /usr/share/themes
