@@ -28,4 +28,5 @@ sudo touch /home/$USER/.config/momento/desktop.json
 sudo chmod 777 /home/$USER/.config/momento/desktop.json
 sudo flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
 echo "export QT_QPA_PLATFORMTHEME=gtk2" >> ~/.profile
+sudo chmod 777 /home/$USER/Music /home/$USER/Pictures/ /home/$USER/Videos/ /home/$USER/Documents/ /home/$USER/.config
 reboot
