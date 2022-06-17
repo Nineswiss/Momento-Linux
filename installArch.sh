@@ -28,4 +28,9 @@ mkdir /home/$USER/.config/picom
 cp picom/picom.conf /home/$USER/.config/picom
 mkdir /home/$USER/.config/momento
 touch /home/$USER/.config/momento/desktop.json
+git clone https://aur.archlinux.org/snapd.git
+cd snapd
+makepkg -si
+sudo systemctl enable --now snapd.socket
+sudo ln -s /var/lib/snapd/snap /snap
 echo "export QT_QPA_PLATFORMTHEME=gtk2" >> ~/.profile
