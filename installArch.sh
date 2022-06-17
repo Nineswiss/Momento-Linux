@@ -8,8 +8,7 @@ sudo pacman -S -y lxterminal
 sudo pacman -S -y openbox
 sudo pacman -S -y picom
 sudo pacman -S hsetroot
-cp /etc/X11/xinit/xinitrc ~/.xinitrc
-echo "exec openbox-session &" >> ~/.xinitrc
+cp xinit/xinitrc ~/.xinitrc
 mkdir /home/$USER/.config
 mkdir /home/$USER/.config/openbox
 mkdir /home/$USER/Documents
@@ -30,7 +29,5 @@ mkdir /home/$USER/.config/picom
 cp picom/picom.conf /home/$USER/.config/picom
 mkdir /home/$USER/.config/momento
 touch /home/$USER/.config/momento/desktop.json
-sudo chmod 777 /home/$USER/.config/momento/desktop.json
 echo "export QT_QPA_PLATFORMTHEME=gtk2" >> ~/.profile
-sudo chmod 777 /home/$USER/Music /home/$USER/Pictures/ /home/$USER/Videos/ /home/$USER/Documents/ /home/$USER/.config
 reboot
