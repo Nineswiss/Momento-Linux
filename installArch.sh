@@ -1,6 +1,5 @@
 #!/bin/bash
 echo "Installing Momento..."
-sudo pacman -S xorg
 sudo pacman -S -y xorg-xinit
 sudo pacman -S -y xorg-server
 sudo pacman -S xorg-fonts-misc
