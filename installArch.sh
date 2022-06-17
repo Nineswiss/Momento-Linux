@@ -1,12 +1,12 @@
 #!/bin/bash
 echo "Installing Momento..."
-sudo pacman -S -y xorg-xinit
-sudo pacman -S -y xorg-server
-sudo pacman -S xorg-fonts-misc
-sudo pacman -S -y lxterminal
-sudo pacman -S -y openbox
-sudo pacman -S -y picom
-sudo pacman -S hsetroot
+sudo pacman -S --noconfirm xorg-xinit
+sudo pacman -S --noconfirm xorg-server
+sudo pacman -S --noconfirm xorg-fonts-misc
+sudo pacman -S --noconfirm lxterminal
+sudo pacman -S --noconfirm openbox
+sudo pacman -S --noconfirm picom
+sudo pacman -S --noconfirm hsetroot
 cp xinit/xinitrc ~/.xinitrc
 mkdir /home/$USER/.config
 mkdir /home/$USER/.config/openbox
