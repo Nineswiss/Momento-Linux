@@ -20,8 +20,8 @@ mkdir /home/$USER/Desktop
 sudo chmod 777 /home/$USER/Documents /home/$USER/Downloads /home/$USER/Pictures /home/$USER/Pictures/Wallpaper /home/$USER/Music /home/$USER/Videos  /home/$USER/Desktop
 cp wallpaper/bright.jpg /home/$USER/Pictures/Wallpaper
 cp -r opbtheme/config/openbox /home/$USER/.config
-cp -r opbtheme/Momento /usr/share/themes
-cp -r gtk/Nordic-darker /usr/share/themes
+sudo cp -r opbtheme/Momento /usr/share/themes
+sudo cp -r gtk/Nordic-darker /usr/share/themes
 mkdir /home/$USER/.config/gtk-3.0
 cp gtk/settings.ini /home/$USER/.config/gtk-3.0
 mkdir /home/$USER/.config/picom
@@ -29,4 +29,3 @@ cp picom/picom.conf /home/$USER/.config/picom
 mkdir /home/$USER/.config/momento
 touch /home/$USER/.config/momento/desktop.json
 echo "export QT_QPA_PLATFORMTHEME=gtk2" >> ~/.profile
-reboot
