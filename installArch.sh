@@ -8,6 +8,7 @@ sudo pacman -S --noconfirm openbox
 sudo pacman -S --noconfirm picom
 sudo pacman -S --noconfirm hsetroot
 sudo pacman -S --noconfirm polkit
+sudo pacman -S --noconfirm upower
 cp xinit/xinitrc ~/.xinitrc
 mkdir /home/$USER/.config
 mkdir /home/$USER/.config/openbox
