@@ -688,7 +688,7 @@
   <applications>
 
   
-   <application name="Momento-Desktop">
+   <application name="Desktop">
    <decor>no</decor>
    <focus>no</focus>
     <shade>no</shade>
