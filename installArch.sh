@@ -9,6 +9,7 @@ sudo pacman -S --noconfirm picom
 sudo pacman -S --noconfirm hsetroot
 sudo pacman -S --noconfirm polkit
 sudo pacman -S --noconfirm xdotool
+sudo pacman -S --noconfirm handlr
 cp xinit/xinitrc ~/.xinitrc
 mkdir /home/$USER/.config
 mkdir /home/$USER/.config/openbox
