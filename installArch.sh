@@ -31,6 +31,8 @@ mkdir /home/$USER/.config/picom
 cp picom/picom.conf /home/$USER/.config/picom
 mkdir /home/$USER/.config/momento
 touch /home/$USER/.config/momento/desktop.json
+sudo cp -r scripts /home/$USER/.config/momento
+chmod +x /home/$USER/.config/momento/scripts/cp_p.sh
 git clone https://aur.archlinux.org/snapd.git
 cd snapd
 makepkg -si
