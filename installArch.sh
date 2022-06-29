@@ -20,6 +20,8 @@ mkdir /home/$USER/Pictures/Wallpaper
 mkdir /home/$USER/Music
 mkdir /home/$USER/Videos
 mkdir /home/$USER/Desktop
+mkdir /home/$USER/Applications
+sudo chattr +i /home/$USER/Documents /home/$USER/Pictures /home/$USER/Music /home/$USER/Videos /home/$USER/Desktop /home/$USER/Downloads /home/$USER/Applications
 sudo chmod 777 /home/$USER/Documents /home/$USER/Downloads /home/$USER/Pictures /home/$USER/Pictures/Wallpaper /home/$USER/Music /home/$USER/Videos  /home/$USER/Desktop
 cp wallpaper/bright.jpg /home/$USER/Pictures/Wallpaper
 cp -r opbtheme/config/openbox /home/$USER/.config
@@ -31,8 +33,6 @@ mkdir /home/$USER/.config/picom
 cp picom/picom.conf /home/$USER/.config/picom
 mkdir /home/$USER/.config/momento
 touch /home/$USER/.config/momento/desktop.json
-sudo cp -r scripts /home/$USER/.config/momento
-chmod +x /home/$USER/.config/momento/scripts/cp_p.sh
 git clone https://aur.archlinux.org/snapd.git
 cd snapd
 makepkg -si
