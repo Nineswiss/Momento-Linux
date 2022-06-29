@@ -14,14 +14,27 @@ cp xinit/xinitrc ~/.xinitrc
 mkdir /home/$USER/.config
 mkdir /home/$USER/.config/openbox
 mkdir /home/$USER/Documents
+touch /home/$USER/Documents/.lock
+sudo chattr +i /home/$USER/Documents/.lock
 mkdir /home/$USER/Downloads
+touch /home/$USER/Downloads/.lock
+sudo chattr +i /home/$USER/Downloads/.lock
 mkdir /home/$USER/Pictures
+touch /home/$USER/Pictures/.lock
+sudo chattr +i /home/$USER/Pictures/.lock
 mkdir /home/$USER/Pictures/Wallpaper
 mkdir /home/$USER/Music
+touch /home/$USER/Music/.lock
+sudo chattr +i /home/$USER/Music/.lock
 mkdir /home/$USER/Videos
+touch /home/$USER/Videos/.lock
+sudo chattr +i /home/$USER/Videos/.lock
 mkdir /home/$USER/Desktop
+touch /home/$USER/Desktop/.lock
+sudo chattr +i /home/$USER/Desktop/.lock
 mkdir /home/$USER/Applications
-sudo chattr +i /home/$USER/Documents /home/$USER/Pictures /home/$USER/Music /home/$USER/Videos /home/$USER/Desktop /home/$USER/Downloads /home/$USER/Applications
+touch /home/$USER/Applications/.lock
+sudo chattr +i /home/$USER/Applications/.lock
 sudo chmod 777 /home/$USER/Documents /home/$USER/Downloads /home/$USER/Pictures /home/$USER/Pictures/Wallpaper /home/$USER/Music /home/$USER/Videos  /home/$USER/Desktop
 cp wallpaper/bright.jpg /home/$USER/Pictures/Wallpaper
 cp -r opbtheme/config/openbox /home/$USER/.config
