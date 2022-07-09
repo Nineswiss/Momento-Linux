@@ -22,3 +22,4 @@ picom --no-vsync &
 sleep 0.5 &&
 hsetroot -cover ~/Pictures/Wallpaper/bright.jpg &
 lxterminal &
+~/.config/momento/scripts/MThumbnailer.sh
