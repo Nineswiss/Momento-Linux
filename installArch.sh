@@ -42,12 +42,17 @@ mkdir /home/$USER/.config/picom
 cp picom/picom.conf /home/$USER/.config/picom
 mkdir /home/$USER/.config/momento
 mkdir /home/$USER/.config/momento/scripts
+
 sudo cp scripts/MThumbnailer.sh /home/$USER/.config/momento/scripts
 sudo cp scripts/Applink.sh /home/$USER/.config/momento/scripts
 sudo cp scripts/AppLinkUpdate.sh /home/$USER/.config/momento/scripts
+sudo cp scripts/./MUpdateThumbs.sh /home/$USER/.config/momento/scripts
+
 sudo chmod +x /home/$USER/.config/momento/scripts/MThumbnailer.sh
 sudo chmod +x /home/$USER/.config/momento/scripts/Applink.sh
 sudo chmod +x /home/$USER/.config/momento/scripts/AppLinkUpdate.sh
+sudo chmod +x /home/$USER/.config/momento/scripts/MUpdateThumbs.sh
+
 touch /home/$USER/.config/momento/desktop.json
 touch ~/.Xresources
 echo "Xcursor.size: 16" >>  ~/.Xresources
@@ -57,4 +62,5 @@ echo "Xcursor.size: 16" >>  ~/.Xresources
 # sudo systemctl enable --now snapd.socket
 # sudo ln -s /var/lib/snapd/snap/snap
 /home/$USER/.config/momento/scripts/AppLinkUpdate.sh
+/home/$USER/.config/momento/scripts/MUpdateThumbs.sh
 echo "export QT_QPA_PLATFORMTHEME=gtk2" >> ~/.profile
