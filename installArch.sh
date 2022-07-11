@@ -48,6 +48,8 @@ sudo chmod +x /home/$USER/.config/momento/scripts/MThumbnailer.sh
 sudo chmod +x /home/$USER/.config/momento/scripts/Applink.sh
 sudo chmod +x /home/$USER/.config/momento/scripts/AppLinkUpdate.sh
 touch /home/$USER/.config/momento/desktop.json
+touch ~/.Xresources
+echo "Xcursor.size: 16" >>  ~/.Xresources
 # git clone https://aur.archlinux.org/snapd.git
 # cd snapd
 # makepkg -si
