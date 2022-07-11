@@ -1,5 +1,5 @@
 FILES="/home/*"
-find "/home" \( -iname \*.jpg -o -iname \*.jpeg  \) -print0 | while read -r -d $'\0' filePath; do
+find "/home" \( -iname \*.jpg -o -iname \*.jpeg -o -iname \*.png -o -iname \*.gif \) -print0 | while read -r -d $'\0' filePath; do
   # base="${file##*/}" $base is the file name with all the directory stuff stripped off
   # dir="${file%/*}    $dir is the directory with the file name stripped off
   echo $filePath
