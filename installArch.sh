@@ -13,6 +13,7 @@ sudo pacman -S --noconfirm handlr
 sudo pacman -S --noconfirm inotify-tools
 sudo pacman -S --noconfirm imagemagick
 sudo pacman -S --noconfirm flatpak
+sudo pacman -S --noconfirm firefox
 cp xinit/xinitrc ~/.xinitrc
 mkdir /home/$USER/.config
 mkdir /home/$USER/.config/openbox
@@ -51,5 +52,5 @@ touch /home/$USER/.config/momento/desktop.json
 # makepkg -si
 # sudo systemctl enable --now snapd.socket
 # sudo ln -s /var/lib/snapd/snap/snap
-./AppLinkUpdate.sh 
+/home/$USER/.config/momento/scripts/AppLinkUpdate.sh
 echo "export QT_QPA_PLATFORMTHEME=gtk2" >> ~/.profile

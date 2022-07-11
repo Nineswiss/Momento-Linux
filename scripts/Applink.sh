@@ -11,3 +11,4 @@ inotifywait -m -r /usr/share/applications /var/lib/flatpak/exports/share/applica
             unlink "$LINKDEDIR/$file"
         fi
     done
+    

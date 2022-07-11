@@ -15,9 +15,10 @@
 # If you want to use XFCE config tools...
 #
 #xfce-mcs-manager &
-xrandr -s 1920x1080 &
-VBoxClient --clipboard &
-VBoxClient --draganddrop &
+# xrandr -s 1920x1080 &
+# VBoxClient --clipboard &
+# VBoxClient --draganddrop &
+xrandr --output HDMI-1 --auto &
 picom --no-vsync &
 sleep 0.5 &&
 hsetroot -cover ~/Pictures/Wallpaper/bright.jpg &
