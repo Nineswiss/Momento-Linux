@@ -25,6 +25,7 @@ mkdir /home/$USER/Music
 mkdir /home/$USER/Videos
 mkdir /home/$USER/Desktop
 mkdir /home/$USER/Applications
+mkdir $HOME/.cache
 mkdir $HOME/.cache/thumbnails
 mkdir $HOME/.cache/thumbnails/momento
 mkdir $HOME/.themes
