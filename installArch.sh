@@ -24,8 +24,9 @@ mkdir /home/$USER/Music
 mkdir /home/$USER/Videos
 mkdir /home/$USER/Desktop
 mkdir /home/$USER/Applications
-mkidr $HOME/.cache/thumbnails/momento
-mkidr $HOME/.themes
+mkdir $HOME/.cache/thumbnails
+mkdir $HOME/.cache/thumbnails/momento
+mkdir $HOME/.themes
 sudo chmod 755 /home/$USER/Documents /home/$USER/Downloads /home/$USER/Pictures /home/$USER/Pictures/Wallpaper /home/$USER/Music /home/$USER/Videos  /home/$USER/Desktop
 cp wallpaper/bright.jpg /home/$USER/Pictures/Wallpaper
 cp -r opbtheme/config/openbox /home/$USER/.config
