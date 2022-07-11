@@ -17,6 +17,7 @@ sudo pacman -S --noconfirm firefox
 cp xinit/xinitrc ~/.xinitrc
 mkdir /home/$USER/.config
 mkdir /home/$USER/.config/openbox
+mkdir /home/$USER/.config/Trash
 mkdir /home/$USER/Documents
 mkdir /home/$USER/Downloads
 mkdir /home/$USER/Pictures
