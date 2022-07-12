@@ -14,6 +14,7 @@ sudo pacman -S --noconfirm inotify-tools
 sudo pacman -S --noconfirm imagemagick
 sudo pacman -S --noconfirm flatpak
 sudo pacman -S --noconfirm firefox
+sudo pacman -S --noconfirm wmctrl
 cp xinit/xinitrc ~/.xinitrc
 mkdir /home/$USER/.config
 mkdir /home/$USER/.config/openbox
