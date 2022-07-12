@@ -47,12 +47,14 @@ mkdir /home/$USER/.config/momento/scripts
 sudo cp scripts/MThumbnailer.sh /home/$USER/.config/momento/scripts
 sudo cp scripts/Applink.sh /home/$USER/.config/momento/scripts
 sudo cp scripts/AppLinkUpdate.sh /home/$USER/.config/momento/scripts
-sudo cp scripts/./MUpdateThumbs.sh /home/$USER/.config/momento/scripts
+sudo cp scripts/MUpdateThumbs.sh /home/$USER/.config/momento/scripts
+sudo cp scripts/appChecker.sh /home/$USER/.config/momento/scripts
 
 sudo chmod +x /home/$USER/.config/momento/scripts/MThumbnailer.sh
 sudo chmod +x /home/$USER/.config/momento/scripts/Applink.sh
 sudo chmod +x /home/$USER/.config/momento/scripts/AppLinkUpdate.sh
 sudo chmod +x /home/$USER/.config/momento/scripts/MUpdateThumbs.sh
+sudo chmod +x /home/$USER/.config/momento/scripts/appChecker.sh
 
 touch /home/$USER/.config/momento/desktop.json
 touch ~/.Xresources
