@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=Application
+Exec=lxterminal
+Hidden=false
+X-GNOME-Autostart-enabled=true
+Name=lxterminal
+Comment=lxterminal
