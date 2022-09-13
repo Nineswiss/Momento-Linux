@@ -50,3 +50,8 @@ fi
 
 twm &
 QT_QPA_PLATFORMTHEME=gtk3
+lxterminal &
+/usr/bin/vmware-user-suid-wrapper &
+xrandr -s 2560x1440 &
+picom &
+exec metacity --compositor=none
