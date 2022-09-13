@@ -1,0 +1,10 @@
+sudo dnf install -y @base-x
+sudo yum install -y open-vm-tools-desktop
+sudo dnf install -y adobe-source-code-pro-fonts
+sudo dnf install -y picom
+sudo dnf install -y metacity
+sudo dnf install -y lxterminal
+sudo dnf install -y xrandr
+sudo dnf install -y nano
+sudo dnf install -y xdotool
+sudo dnf install -y bamf-daemon
