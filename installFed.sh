@@ -8,7 +8,7 @@ sudo dnf install xdotool
 sudo dnf install -y gnome-shell-extension-user-theme
 systemctl enable gdm.service
 sudo ln -svf /usr/lib/systemd/system/graphical.target /etc/systemd/system/default.target
-cd Momento-Linux/mutter
+cd ~/Momento-Linux/mutter
 sudo dnf install -y mutter-42.1-2.fc36.x86_64.rpm
 mkdir -p ~/.config/momento/
 sudo cp ~/Momento-Linux/wallpaper/silk.png /usr/share/backgrounds/
