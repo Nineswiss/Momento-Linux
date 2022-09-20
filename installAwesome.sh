@@ -1,0 +1,1 @@
+sudo apt install cmake libgdk-pixbuf2.0-dev libcairo2-dev libxcb-cursor-dev libxcb-randr0-dev libxcb-xtest0-dev libxcb-xinerama0-dev libxcb-shape0-dev libxcb-util-dev libxcb-keysyms1-dev libxcb-icccm4-dev libxcb-xkb-dev libxkbcommon-dev libxkbcommon-x11-dev libstartup-notification0-dev libxdg-basedir-dev libxcb-xrm-dev lua5.2 liblua5.2-dev lua-lgi-dev

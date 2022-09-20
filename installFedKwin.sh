@@ -9,4 +9,4 @@ sudo dnf install -y xdotool
 sudo dnf install -y xprop
 sudo dnf install -y wmctrl
 git clone https://github.com/Nineswiss/Momento-Linux
-cp Momento-Linux/xinitrc ~/.xinitrc
+cp ~/Momento-Linux/xinitrc ~/.xinitrc
