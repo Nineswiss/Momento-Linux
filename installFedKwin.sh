@@ -15,14 +15,15 @@ sudo systemctl enable sddm.service -f
 sudo systemctl set-default graphical.target 
 sudo systemctl enable sddm --force
 systemctl start sddm.service
+reboot
 
 # APPLET WINDOW MENU
 # https://github.com/psifidotos/applet-window-appmenu/blob/master/INSTALLATION.md
-sudo dnf install make cmake extra-cmake-modules qt5-qtdeclarative-devel kf5-plasma-devel qt5-qtx11extras-devel gcc-c++ libSM-devel kf5-kconfigwidgets-devel kdecoration-devel kf5-kitemmodels-devel plasma-workspace-devel kf5-kwayland-devel 
+# sudo dnf install make cmake extra-cmake-modules qt5-qtdeclarative-devel kf5-plasma-devel qt5-qtx11extras-devel gcc-c++ libSM-devel kf5-kconfigwidgets-devel kdecoration-devel kf5-kitemmodels-devel plasma-workspace-devel kf5-kwayland-devel 
 
-git clone https://github.com/Nineswiss/Momento-Linux
-cp ~/Momento-Linux/xinitrc ~/.xinitrc
+# git clone https://github.com/Nineswiss/Momento-Linux
+# cp ~/Momento-Linux/xinitrc ~/.xinitrc
 
-# IN .BASHRC
-export GTK_MODULES="unity-gtk-module"
-export SAL_USE_VCLPLUGIN=gtk
+# # IN .BASHRC
+# export GTK_MODULES="unity-gtk-module"
+# export SAL_USE_VCLPLUGIN=gtk
