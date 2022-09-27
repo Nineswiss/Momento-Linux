@@ -1,0 +1,8 @@
+https://github.com/IComplainInComments/archiso/releases/download/v2.0/Arch.Linux.Arm--aarch64.iso
+https://www.vultr.com/docs/how-to-use-sudo-on-a-vultr-cloud-server/
+sudo pacman -S xorg plasma-desktop sddm
+systemctl enable sddm
+sudo pacman -S lxterminal
+
+reboot
+

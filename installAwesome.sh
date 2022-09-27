@@ -32,3 +32,6 @@ sudo apt-get install --no-install-recommends \
 
 luarocks install lgi
 luarocks install ldoc
+make
+make install
+cp /usr/local/etc/xdg/awesome/rc.lua
