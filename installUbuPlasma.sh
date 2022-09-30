@@ -1,6 +1,5 @@
 # sudo apt install -y xorg
 # sudo apt install -y lxterminal
-# sudo apt install -y xorg
 # sudo apt install -y xdotool
 # sudo apt install -y xprop
 # sudo apt install -y wmctrl
