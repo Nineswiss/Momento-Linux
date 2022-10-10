@@ -1,8 +1,9 @@
 #!/bin/bash
 echo "Installing Momento..."
+sudo pacman -S --noconfirm xorg
 sudo pacman -S --noconfirm xorg-xinit
-sudo pacman -S --noconfirm xorg-server
-sudo pacman -S --noconfirm xorg-fonts-misc
+# sudo pacman -S --noconfirm xorg-server
+# sudo pacman -S --noconfirm xorg-fonts-misc
 sudo pacman -S --noconfirm lxterminal
 sudo pacman -S --noconfirm openbox
 sudo pacman -S --noconfirm picom

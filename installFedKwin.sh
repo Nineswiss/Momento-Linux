@@ -17,6 +17,7 @@ sudo dnf install -y unity-gtk-module-common unity-gtk2-module unity-gtk3-module
 sudo dnf install -y bamf-daemon
 
 
+
 cd
 git clone https://github.com/Nineswiss/applet-window-appmenu
 cd applet-window-appmenu
