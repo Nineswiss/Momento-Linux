@@ -5,6 +5,8 @@
 # sudo apt install -y wmctrl
 # sudo apt install -y sddm
 sudo apt install -y plocate
+sudo apt install unzip
+
 # sudo apt install spice-vdagent spice-webdavd
 sudo apt install -y make cmake extra-cmake-modules qtdeclarative5-dev libkf5plasma-dev libqt5x11extras5-dev g++ libsm-dev libkf5configwidgets-dev libkdecorations2-dev libxcb-randr0-dev libkf5wayland-dev plasma-workspace-dev
 sudo apt install -y qtcreator
@@ -23,6 +25,10 @@ cd
 git clone https://github.com/psifidotos/applet-window-title
 cd applet-window-title
 kpackagetool5 -i .
+cd
+# FONT INTER
+wget https://github.com/rsms/inter/releases/download/v3.19/Inter-3.19.zip
+
 # sudo systemctl enable sddm.service -f
 # sudo systemctl set-default graphical.target 
 # sudo systemctl enable sddm --forcec
