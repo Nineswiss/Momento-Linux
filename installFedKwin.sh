@@ -12,12 +12,15 @@ sudo dnf install -y plasma-desktop
 sudo dnf install -y plasma-workspace-devel
 sudo dnf install -y kscreen
 sudo dnf install -y sddm
+sudo dnf install -y picom
+
 
 sudo dnf install -y bamf-daemon
 
 
 
 cd
+sudo dnf install -y libdbusmenu
 sudo dnf install -y make cmake extra-cmake-modules qt5-qtdeclarative-devel kf5-plasma-devel qt5-qtx11extras-devel gcc-c++ libSM-devel kf5-kconfigwidgets-devel kdecoration-devel kf5-kitemmodels-devel plasma-workspace-devel kf5-kwayland-devel
 sudo dnf install -y unity-gtk-module-common unity-gtk2-module unity-gtk3-module
 git clone https://github.com/Nineswiss/applet-window-appmenu
